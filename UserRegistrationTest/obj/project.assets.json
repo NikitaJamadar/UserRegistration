@@ -1661,14 +1661,14 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "UserRegistrationMSTest/1.0.0": {
+      "UserRegistrations/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/UserRegistrationMSTest.dll": {}
+          "bin/placeholder/UserRegistrations.dll": {}
         },
         "runtime": {
-          "bin/placeholder/UserRegistrationMSTest.dll": {}
+          "bin/placeholder/UserRegistrations.dll": {}
         }
       }
     }
@@ -6114,10 +6114,10 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "UserRegistrationMSTest/1.0.0": {
+    "UserRegistrations/1.0.0": {
       "type": "project",
-      "path": "../UserRegistrationMSTest/UserRegistrationMSTest.csproj",
-      "msbuildProject": "../UserRegistrationMSTest/UserRegistrationMSTest.csproj"
+      "path": "../UserRegistrationMSTest/UserRegistrations.csproj",
+      "msbuildProject": "../UserRegistrationMSTest/UserRegistrations.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6125,7 +6125,7 @@
       "MSTest.TestAdapter >= 2.2.3",
       "MSTest.TestFramework >= 2.2.3",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
-      "UserRegistrationMSTest >= 1.0.0",
+      "UserRegistrations >= 1.0.0",
       "coverlet.collector >= 3.0.2"
     ]
   },
@@ -6156,8 +6156,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Blabz\\RFP\\UserRegistrationMSTest\\UserRegistrationMSTest\\UserRegistrationMSTest.csproj": {
-              "projectPath": "D:\\Blabz\\RFP\\UserRegistrationMSTest\\UserRegistrationMSTest\\UserRegistrationMSTest.csproj"
+            "D:\\Blabz\\RFP\\UserRegistrationMSTest\\UserRegistrationMSTest\\UserRegistrations.csproj": {
+              "projectPath": "D:\\Blabz\\RFP\\UserRegistrationMSTest\\UserRegistrationMSTest\\UserRegistrations.csproj"
             }
           }
         }

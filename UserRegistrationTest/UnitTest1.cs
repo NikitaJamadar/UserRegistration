@@ -5,55 +5,105 @@ namespace UserRegistrationTest
     [TestClass]
     public class UnitTest1
     {
-        private readonly UserRegistration userRegistration;
-        public UnitTest1()
-        {
-            userRegistration = new UserRegistration();
-        }
-
-        // UC-1
-        [TestMethod]
-        public void UserFirstName()
-        {
-            var result = userRegistration.ValidateFirstName("Nikita");
-            Assert.AreEqual(true, result);
-        }
        
-
-        // UC-2
+       
+       // test case for First Name
         [TestMethod]
-        public void UserLastName()
+        public void GivenWrongFirstName_ShouldReturnFalse()
         {
-            var result = userRegistration.ValidateLastName("Jamadar");
-            Assert.AreEqual(true, result);
+            string firstName = "nikita";
+            bool expected = false;
+            UserRegistration userRegistration = new UserRegistration();
+            var actual = userRegistration.ValidateFirstName(firstName);
+            Assert.AreEqual(expected, actual);
         }
-        
-
-        // UC-3
         [TestMethod]
-        public void UserEmail()
+        public void GivenCorrectFirstName_ShouldReturnTrue()
         {
-            var result = userRegistration.ValidateEmail("nikitajamadar98@gmail.com");
-            Assert.AreEqual(true, result);
+            string firstName = "Nikita";
+            bool expected = true;
+            UserRegistration userRegistration = new UserRegistration();
+            var actual = userRegistration.ValidateFirstName(firstName);
+            Assert.AreEqual(expected, actual);
         }
-        
 
-        // UC-4
+        // test case for last name
         [TestMethod]
-        public void UserPhoneNumber()
+        public void GivenWrongLastName_ShouldReturnFalse()
         {
-            var result = userRegistration.ValidatePhoneNumber("91 9527754593");
-            Assert.AreEqual(true, result);
+            string lastName = "jamadar";
+            bool expected = false;
+            UserRegistration userRegistration = new UserRegistration();
+            var actual = userRegistration.ValidateLastName(lastName);
+            Assert.AreEqual(expected, actual);
         }
-        
+        [TestMethod]
+        public void GivenCorrectLastName_ShouldReturnTrue()
+        {
+            string lastName = "Jamadar";
+            bool expected = true;
+            UserRegistration userRegistration = new UserRegistration();
+            var actual = userRegistration.ValidateLastName(lastName);
+            Assert.AreEqual(expected, actual);
+        }
+        //Test case for Email
+        [TestMethod]
+        public void GivenWrongEmail_ShouldReturnFalse()
+        {
+            string Email = "nikitagmail.com";
+            bool expected = false;
+            UserRegistration userRegistration = new UserRegistration();
+            var actual = userRegistration.ValidateEmail(Email);
+            Assert.AreEqual(expected, actual);
+        }
+        [TestMethod]
+        public void GivenCorrectEmail_ShouldReturnTrue()
+        {
+            string Email = "nikita@gmail.com";
+            bool expected = true;
+            UserRegistration userRegistration = new UserRegistration();
+            var actual = userRegistration.ValidateEmail(Email);
+            Assert.AreEqual(expected, actual);
+        }
+        //Test case for Phone Number
+        [TestMethod]
+        public void GivenWrongPhoneNumber_ShouldReturnFalse()
+        {
+            string phoneNumber = "7214566677788";
+            bool expected = false;
+            UserRegistration userRegistration = new UserRegistration();
+            var actual = userRegistration.ValidatePhoneNumber(phoneNumber);
+            Assert.AreEqual(expected, actual);
+        }
 
-       // UC-5
         [TestMethod]
-        public void UserPassword()
+        public void GivenCorrectPhoneNumber_ShouldReturnTrue()
         {
-            var result = userRegistration.ValidatePassword("Pass@1234");
-            Assert.AreEqual(true, result);
+            string phoneNumber = "91 9527754593";
+            bool expected = true;
+            UserRegistration userRegistration = new UserRegistration();
+            var actual = userRegistration.ValidatePhoneNumber(phoneNumber);
+            Assert.AreEqual(expected, actual);
         }
-        
+        // Test case for Password
+        [TestMethod]
+        public void GivenWrongPassword_ShouldReturnFalse()
+        {
+            string Password = "Pass345";
+            bool expected = false;
+            UserRegistration userRegistration = new UserRegistration();
+            var actual = userRegistration.ValidatePassword(Password);
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void GivenCorrectPassword_ShouldReturnTrue()
+        {
+            string Password = "Pass@12345";
+            bool expected = true;
+            UserRegistration userRegistration = new UserRegistration();
+            var actual = userRegistration.ValidatePassword(Password);
+            Assert.AreEqual(expected, actual);
+        }
     }
 }

@@ -1,9 +1,5 @@
 D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\CoverletSourceRootsMapping
 D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\testhost.dll
-D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\UserRegistrationMSTest.deps.json
-D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\UserRegistrationMSTest.runtimeconfig.json
-D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\UserRegistrationMSTest.runtimeconfig.dev.json
-D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\UserRegistrationMSTest.exe
 D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\testhost.exe
 D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
@@ -91,8 +87,6 @@ D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1
 D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\UserRegistrationMSTest.dll
-D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\UserRegistrationMSTest.pdb
 D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\obj\Debug\netcoreapp3.1\UserRegistrationTest.csproj.AssemblyReference.cache
 D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\obj\Debug\netcoreapp3.1\UserRegistrationTest.GeneratedMSBuildEditorConfig.editorconfig
 D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\obj\Debug\netcoreapp3.1\UserRegistrationTest.AssemblyInfoInputs.cache
@@ -102,3 +96,9 @@ D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\obj\Debug\netcoreapp3.1
 D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\obj\Debug\netcoreapp3.1\UserRegistrationTest.dll
 D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\obj\Debug\netcoreapp3.1\UserRegistrationTest.pdb
 D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\obj\Debug\netcoreapp3.1\UserRegistrationTest.genruntimeconfig.cache
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\UserRegistrations.deps.json
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\UserRegistrations.runtimeconfig.json
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\UserRegistrations.runtimeconfig.dev.json
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\UserRegistrations.exe
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\UserRegistrations.dll
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationTest\bin\Debug\netcoreapp3.1\UserRegistrations.pdb

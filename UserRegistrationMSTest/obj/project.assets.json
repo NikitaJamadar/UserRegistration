@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Blabz\\RFP\\UserRegistrationMSTest\\UserRegistrationMSTest\\UserRegistrationMSTest.csproj",
-      "projectName": "UserRegistrationMSTest",
-      "projectPath": "D:\\Blabz\\RFP\\UserRegistrationMSTest\\UserRegistrationMSTest\\UserRegistrationMSTest.csproj",
+      "projectUniqueName": "D:\\Blabz\\RFP\\UserRegistrationMSTest\\UserRegistrationMSTest\\UserRegistrations.csproj",
+      "projectName": "UserRegistrations",
+      "projectPath": "D:\\Blabz\\RFP\\UserRegistrationMSTest\\UserRegistrationMSTest\\UserRegistrations.csproj",
       "packagesPath": "C:\\Users\\Nikita\\.nuget\\packages\\",
       "outputPath": "D:\\Blabz\\RFP\\UserRegistrationMSTest\\UserRegistrationMSTest\\obj\\",
       "projectStyle": "PackageReference",

@@ -14,47 +14,33 @@ namespace UserRegistrationMSTest
 
         public static string Regex_Password = "^((?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*-_.])(?=.{8,}))";
 
-
+        // Validation for first name
         public bool ValidateFirstName(string FirstName)
         {
-
-
             return Regex.IsMatch(FirstName, Regex_FirstName);
-
         }
 
-
-
-
+        // validation for last name
         public bool ValidateLastName(string LastName)
         {
-
-
             return Regex.IsMatch(LastName, Regex_LastName);
-
         }
-
-
+        //validation for Email
         public bool ValidateEmail(string Emailid)
         {
-
-
             return Regex.IsMatch(Emailid, Regex_EmailId);
-
         }
 
-
+        //validation for phone number
         public bool ValidatePhoneNumber(string PhoneNumber)
         {
             return Regex.IsMatch(PhoneNumber, Regex_PhoneNumber);
-
         }
 
-
+        //validation for password
         public bool ValidatePassword(string Password)
         {
             return Regex.IsMatch(Password, Regex_Password);
-
         }
     }
 }

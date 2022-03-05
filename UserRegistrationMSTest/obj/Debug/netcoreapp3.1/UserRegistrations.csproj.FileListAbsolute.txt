@@ -1,0 +1,13 @@
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\bin\Debug\netcoreapp3.1\UserRegistrations.exe
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\bin\Debug\netcoreapp3.1\UserRegistrations.deps.json
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\bin\Debug\netcoreapp3.1\UserRegistrations.runtimeconfig.json
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\bin\Debug\netcoreapp3.1\UserRegistrations.runtimeconfig.dev.json
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\bin\Debug\netcoreapp3.1\UserRegistrations.dll
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\bin\Debug\netcoreapp3.1\UserRegistrations.pdb
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\obj\Debug\netcoreapp3.1\UserRegistrations.GeneratedMSBuildEditorConfig.editorconfig
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\obj\Debug\netcoreapp3.1\UserRegistrations.AssemblyInfoInputs.cache
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\obj\Debug\netcoreapp3.1\UserRegistrations.AssemblyInfo.cs
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\obj\Debug\netcoreapp3.1\UserRegistrations.csproj.CoreCompileInputs.cache
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\obj\Debug\netcoreapp3.1\UserRegistrations.dll
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\obj\Debug\netcoreapp3.1\UserRegistrations.pdb
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\obj\Debug\netcoreapp3.1\UserRegistrations.genruntimeconfig.cache

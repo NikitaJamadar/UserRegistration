@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "UserRegistrationMSTest/1.0.0": {
+      "UserRegistrations/1.0.0": {
         "runtime": {
-          "UserRegistrationMSTest.dll": {}
+          "UserRegistrations.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "UserRegistrationMSTest/1.0.0": {
+    "UserRegistrations/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
