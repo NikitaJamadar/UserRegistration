@@ -11,3 +11,4 @@ D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\obj\Debug\netcoreapp3
 D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\obj\Debug\netcoreapp3.1\UserRegistrations.dll
 D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\obj\Debug\netcoreapp3.1\UserRegistrations.pdb
 D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\obj\Debug\netcoreapp3.1\UserRegistrations.genruntimeconfig.cache
+D:\Blabz\RFP\UserRegistrationMSTest\UserRegistrationMSTest\obj\Debug\netcoreapp3.1\UserRegistrations.csproj.AssemblyReference.cache

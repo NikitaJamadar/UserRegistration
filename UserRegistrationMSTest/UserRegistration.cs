@@ -14,6 +14,8 @@ namespace UserRegistrationMSTest
 
         public static string Regex_Password = "^((?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*-_.])(?=.{8,}))";
 
+        public static string Regex_SampleEmails = "^[A-Za-z]+([-.+#^*][0-9]+)?[0-9]*[@][A-Za-z0-9]+[.][A-Za-z]{2,}([.][a-zA-Z]{2,})?$";
+
         // Validation for first name
         public bool ValidateFirstName(string FirstName)
         {
@@ -41,6 +43,10 @@ namespace UserRegistrationMSTest
         public bool ValidatePassword(string Password)
         {
             return Regex.IsMatch(Password, Regex_Password);
+        }
+        public  bool ValidateSampleEmails(string SampleEmail)
+        {
+            return Regex.IsMatch(SampleEmail, Regex_SampleEmails);
         }
     }
 }

@@ -27,7 +27,12 @@ namespace UserRegistrationMSTest
 
             Console.WriteLine("Enter your Password");
             string Password = Console.ReadLine();
-            Console.WriteLine(userRegistration.ValidateFirstName(Password));
+            Console.WriteLine(userRegistration.ValidatePassword(Password));
+
+            Console.WriteLine("Enter email samples");
+            string emails = Console.ReadLine();
+            Console.WriteLine(userRegistration.ValidateSampleEmails(emails));
+
 
         }
     }
